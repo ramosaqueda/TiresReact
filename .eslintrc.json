@@ -1,0 +1,12 @@
+{
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+       "eslint:recommended" 
+    ],
+    "rules": {
+       "quotes": ["error", "single"], 
+       "curly": "error",
+       "no-empty": "error", 
+    }
+ }
