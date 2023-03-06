@@ -36,7 +36,7 @@ const Finder = () => {
   const [years,SetYears] = useState([])
   const [year,SetYear] = useState()
   const [generations,SetGenerations] = useState([])
-  const [byModel,SetByModel] = useState([])
+  const [byModel,SetByModel] = useState({})
 
 
   const [modifications, SetModifications] = useState([])
@@ -98,6 +98,18 @@ const Finder = () => {
   const handleModifications = (event) =>{
     SetModification(event.target.value);
     fetchByModel(make,model,year,event.target.value) 
+
+  }
+
+  const recorrer =() => {
+
+    let claves = Object.keys(byModel);  
+      for(let i=0; i< claves.length; i++){
+        let clave = claves[i];
+        console.log(byModel[clave]);
+      }
+      
+
 
   }
 
@@ -176,8 +188,7 @@ const Finder = () => {
 
 
 
-      { byModel.map((g) => 
-
+        
 
       
           <Card sx={{ maxWidth: 345 }}>
@@ -202,7 +213,7 @@ const Finder = () => {
         </Card>
       
       
-      ) }  
+     
       
 
          
