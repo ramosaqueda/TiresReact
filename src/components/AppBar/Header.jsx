@@ -18,12 +18,12 @@ import Button from '@mui/material/Button';
 const drawerWidth = 240;
 const navItems = ['Inicio', 'Nosotros', 'Nuestras Tiendas', 'Contacto']; 
 
- 
 
 
 function Header (props) {
-
  
+
+  
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -34,7 +34,7 @@ function Header (props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        CENTROMOTOR
+      {import.meta.env.VITE_SITE_NAME_MOBILE}
       </Typography>
       <Divider />
       <List>
@@ -71,7 +71,7 @@ function Header (props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            CENTROMOTOR, su centro de servicios
+              {import.meta.env.VITE_SITE_NAME}
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
@@ -99,7 +99,6 @@ function Header (props) {
           {drawer}
         </Drawer>
       </Box>
-    
     </Box>
     </>
   )
