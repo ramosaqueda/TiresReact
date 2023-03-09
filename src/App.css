@@ -1,8 +1,21 @@
+
+ 
+
+.bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	opacity: 0.3;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
 .logo {

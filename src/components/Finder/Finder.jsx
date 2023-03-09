@@ -68,6 +68,7 @@ const Finder = () => {
   async function fetchByModel(make,model,year,modification) {
     const allByModels = await WheelSize.fetchByModel(make,model,year,modification)
     SetByModel(allByModels)
+    recorrer()
   }
 
 
@@ -76,8 +77,7 @@ const Finder = () => {
   }, []);
 
 
-  ;
-
+  
   const handleChangeMake = (event) => { 
     SetMake(event.target.value)   
     fetchModels(event.target.value); 
@@ -101,14 +101,16 @@ const Finder = () => {
 
   }
 
-  const recorrer =() => {
-
-    let claves = Object.keys(byModel);  
-      for(let i=0; i< claves.length; i++){
-        let clave = claves[i];
-        console.log(byModel[clave]);
-      }
-      
+  const recorrer = () => {
+    let obj = Object.values(byModel);
+     
+    let claves = Object.keys(byModel); 
+    for(let i=0; i< claves.length; i++)
+    {
+      let clave = claves[i];
+      //console.log(byModel[clave]);
+    }
+    //console.log(Object.values(byModel));
 
 
   }

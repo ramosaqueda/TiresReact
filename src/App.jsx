@@ -1,6 +1,7 @@
  
 import Header  from './components/AppBar/Header'
 import Finder from './components/Finder/Finder'
+import './App.css'
 
 function App() { 
   return (
