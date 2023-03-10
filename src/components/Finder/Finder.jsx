@@ -72,9 +72,7 @@ const Finder = () => {
   }
 
 
-  useEffect(() => {
-   fetchAllMakes()
-  }, []);
+
 
 
   
@@ -102,17 +100,19 @@ const Finder = () => {
   }
 
   const recorrer = () => {
-    let obj = Object.values(byModel);
+ 
      
     let claves = Object.keys(byModel); 
-    for(let i=0; i< claves.length; i++)
+    console.log(byModel[1])
+   /* for(let i=0; i< claves.length; i++)
     {
       let clave = claves[i];
-      //console.log(byModel[clave]);
+      console.log(clave);
+      console.log(byModel[clave]);
     }
     //console.log(Object.values(byModel));
 
-
+*/
   }
 
 

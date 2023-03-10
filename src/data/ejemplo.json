@@ -1,0 +1,281 @@
+[
+    {
+        "slug": "6ab3f66803",
+        "name": "3.0 SIDI",
+        "body": null,
+        "trim": "3.0 SIDI",
+        "trim_scoring": null,
+        "trim_attributes": [],
+        "trim_body_types": [],
+        "trim_levels": [],
+        "generation": {
+            "slug": "f8f122d50e",
+            "name": "",
+            "platform": "",
+            "start": 2008,
+            "end": 2017,
+            "bodies": [
+                {
+                    "slug": "14db62200d",
+                    "name": "SUV, 5d",
+                    "image": "https://cdn.wheel-size.com/automobile/body/chevrolet-captiva-sport-2011-2017-1478144949.54.jpg"
+                }
+            ]
+        },
+        "start_year": 2011,
+        "end_year": 2011,
+        "engine": {
+            "fuel": "Flex-Fuel",
+            "capacity": null,
+            "type": "V6",
+            "power": {
+                "kW": 197,
+                "PS": 268,
+                "hp": 264
+            },
+            "code": null
+        },
+        "regions": [
+            "ladm"
+        ],
+        "technical": {
+            "wheel_fasteners": {
+                "type": "Lug nuts",
+                "thread_size": "M12 x 1.5"
+            },
+            "wheel_tightening_torque": null,
+            "stud_holes": 5,
+            "pcd": 115,
+            "centre_bore": "70.2",
+            "bolt_pattern": "5x115",
+            "rear_axis_stud_holes": null,
+            "rear_axis_pcd": null,
+            "rear_axis_centre_bore": null,
+            "rear_axis_bolt_pattern": "N/A"
+        },
+        "tire_type": "SUV",
+        "wheels": [
+            {
+                "is_stock": true,
+                "showing_fp_only": true,
+                "is_recommended_for_winter": false,
+                "is_runflat_tires": false,
+                "is_pressed_steel_rims": false,
+                "front": {
+                    "tire_pressure": {
+                        "bar": 2.413,
+                        "psi": 35,
+                        "kPa": 241.3
+                    },
+                    "rim": "7Jx17 ET46",
+                    "rim_diameter": 17,
+                    "rim_width": 7,
+                    "rim_offset": 46,
+                    "tire": "235/60R17",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": 235,
+                    "tire_aspect_ratio": 60,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": 100,
+                    "speed_index": "H"
+                },
+                "rear": {
+                    "tire_pressure": null,
+                    "rim": "",
+                    "rim_diameter": null,
+                    "rim_width": null,
+                    "rim_offset": null,
+                    "tire": "",
+                    "tire_sizing_system": null,
+                    "tire_construction": null,
+                    "tire_width": null,
+                    "tire_aspect_ratio": null,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": null,
+                    "speed_index": null
+                }
+            },
+            {
+                "is_stock": false,
+                "showing_fp_only": true,
+                "is_recommended_for_winter": false,
+                "is_runflat_tires": false,
+                "is_pressed_steel_rims": false,
+                "front": {
+                    "tire_pressure": {
+                        "bar": 2.1,
+                        "psi": 30,
+                        "kPa": 210
+                    },
+                    "rim": "7Jx18 ET45",
+                    "rim_diameter": 18,
+                    "rim_width": 7,
+                    "rim_offset": 45,
+                    "tire": "235/55R18",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": 235,
+                    "tire_aspect_ratio": 55,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": 100,
+                    "speed_index": "H"
+                },
+                "rear": {
+                    "tire_pressure": null,
+                    "rim": "",
+                    "rim_diameter": null,
+                    "rim_width": null,
+                    "rim_offset": null,
+                    "tire": "",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": null,
+                    "tire_aspect_ratio": null,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": null,
+                    "speed_index": null
+                }
+            },
+            {
+                "is_stock": false,
+                "showing_fp_only": true,
+                "is_recommended_for_winter": false,
+                "is_runflat_tires": false,
+                "is_pressed_steel_rims": false,
+                "front": {
+                    "tire_pressure": null,
+                    "rim": "8Jx19 ET45",
+                    "rim_diameter": 19,
+                    "rim_width": 8,
+                    "rim_offset": 45,
+                    "tire": "245/45ZR19",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": 245,
+                    "tire_aspect_ratio": 45,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": 98,
+                    "speed_index": "Y"
+                },
+                "rear": {
+                    "tire_pressure": null,
+                    "rim": "",
+                    "rim_diameter": null,
+                    "rim_width": null,
+                    "rim_offset": null,
+                    "tire": "",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": null,
+                    "tire_aspect_ratio": null,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": null,
+                    "speed_index": null
+                }
+            },
+            {
+                "is_stock": false,
+                "showing_fp_only": true,
+                "is_recommended_for_winter": false,
+                "is_runflat_tires": false,
+                "is_pressed_steel_rims": false,
+                "front": {
+                    "tire_pressure": {
+                        "bar": 2.1,
+                        "psi": 30,
+                        "kPa": 210
+                    },
+                    "rim": "6.5Jx16 ET46",
+                    "rim_diameter": 16,
+                    "rim_width": 6.5,
+                    "rim_offset": 46,
+                    "tire": "215/70R16",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": 215,
+                    "tire_aspect_ratio": 70,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": 100,
+                    "speed_index": "T"
+                },
+                "rear": {
+                    "tire_pressure": null,
+                    "rim": "",
+                    "rim_diameter": null,
+                    "rim_width": null,
+                    "rim_offset": null,
+                    "tire": "",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": null,
+                    "tire_aspect_ratio": null,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": null,
+                    "speed_index": null
+                }
+            },
+            {
+                "is_stock": false,
+                "showing_fp_only": true,
+                "is_recommended_for_winter": false,
+                "is_runflat_tires": false,
+                "is_pressed_steel_rims": false,
+                "front": {
+                    "tire_pressure": {
+                        "bar": 2.413,
+                        "psi": 35,
+                        "kPa": 241.3
+                    },
+                    "rim": "7Jx17 ET46",
+                    "rim_diameter": 17,
+                    "rim_width": 7,
+                    "rim_offset": 46,
+                    "tire": "235/65R17",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": 235,
+                    "tire_aspect_ratio": 65,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": 104,
+                    "speed_index": "H"
+                },
+                "rear": {
+                    "tire_pressure": null,
+                    "rim": "",
+                    "rim_diameter": null,
+                    "rim_width": null,
+                    "rim_offset": null,
+                    "tire": "",
+                    "tire_sizing_system": "metric",
+                    "tire_construction": "R",
+                    "tire_width": null,
+                    "tire_aspect_ratio": null,
+                    "tire_diameter": null,
+                    "tire_section_width": null,
+                    "tire_is_82series": false,
+                    "load_index": null,
+                    "speed_index": null
+                }
+            }
+        ]
+    }
+]
