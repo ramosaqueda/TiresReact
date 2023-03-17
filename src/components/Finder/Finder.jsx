@@ -312,7 +312,7 @@ const Finder = () => {
                         <ul>
                        
                             <li> 
-                              <strong>RIM: </strong>{m.wheels[0].front.rim}
+                              <strong>RIM2: </strong>{m.wheels[0].front.rim}
                              
                             </li>
                             <li> <strong>Diametro: </strong>{m.wheels[0].front.rim_diameter}</li>
