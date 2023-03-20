@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/slider/slider1.jpg",
+        "title": "En nuestrass tiendas encontrará todo para su vheiculo"
+
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/slider/slider2.jpg",
+        "title": "Slider"
+
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/slider/slider3.jpg",
+        "title": "Slider"
+
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/slider/slider4.jpg",
+        "title": "Slider"
+
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/slider/slider5.jpg",
+        "title": "Slider"
+
+    }
+]

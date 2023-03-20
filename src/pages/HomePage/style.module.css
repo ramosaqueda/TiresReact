@@ -1,0 +1,13 @@
+.container{
+    color: rgb(251, 247, 36);
+    background-color: brown;   
+    overflow-x: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    padding: 10px;
+    margin: 10px;
+
+    min-width: 100%;
+    min-height: 100%;
+}
