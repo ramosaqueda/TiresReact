@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/slider/slider1.jpg",
+        "title": "Gran cantidad de accesorios",
+        "description": "En nuestrass tiendas encontrará todo para su vehículo"
+
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/slider/slider2.jpg",
+        "title": "Baterias",
+        "description": "Contamos con gran surtido de baterias, de afamadas marcas"
+
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/slider/slider3.jpg",
+        "title": "Servicio de Frenos",
+        "description": "Su seguridad es lo más importante, realice regularmente la revisión de frenos en una de nuestas tiendas"
+
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/slider/slider4.jpg",
+        "title": "Llantas",
+        "description": "En nuestrass tiendas encontrará uan grande cantidad de llantas"
+
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/slider/slider5.jpg",
+        "title": "Check Car",  
+        "description": "Revision 10 points, en todas las sucursales de centromotor"
+
+    }
+]

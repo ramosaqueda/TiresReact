@@ -162,8 +162,6 @@ const Finder = () => {
             </Select>
           </FormControl>
 
-
-
           <FormControl sx={{ m: 1, minWidth: 220 }}>
             <InputLabel id="modelo_label">Modelo</InputLabel>
             <Select
@@ -204,15 +202,11 @@ const Finder = () => {
               {modifications.map((m) => (<MenuItem id={m.slug} value={m.slug}>{m.name}</MenuItem>))}
             </Select>
           </FormControl>
-
-
           <div>
 
 
             {byModel.length &&
               byModel.map((m) => (
-
-
                 <Card sx={{ maxWidth: { xs: '320px', sm: '600px' } }}>
                   <CardHeader
                     title={m.generation.bodies[0].name}
@@ -225,14 +219,9 @@ const Finder = () => {
                     alt={m.generation.bodies[0].name}
                   />
                   <CardContent>
-
                   </CardContent>
                   <CardActions disableSpacing>
-
-
                   </CardActions>
-
-
                   <Paper className="container">
                     <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                       <AccordionSummary
@@ -252,7 +241,6 @@ const Finder = () => {
                               <ListItemAvatar>
                                 <Avatar>
                                   <LocalGasStationIcon color="primary" />
-
                                 </Avatar>
                               </ListItemAvatar>
                               <ListItemText primary="Tipo Combustible" secondary={m.engine.fuel} />
@@ -271,7 +259,6 @@ const Finder = () => {
                                   <SpeedIcon color="primary" />
                                 </Avatar>
                               </ListItemAvatar>
-
                               <ListItemText primary="Motor"
                                 secondary={
                                   <>
@@ -285,19 +272,15 @@ const Finder = () => {
                                       KW:{m.engine.power.KW}
                                       HP :{m.engine.power.HP}
                                     </Typography>
-
                                   </>
                                 } />
-
                             </ListItem>
                           </List>
                         </Typography>
                       </AccordionDetails>
                     </Accordion>
 
-
-
-                    <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel3')}>
+                    <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel3bh-content"
@@ -306,24 +289,21 @@ const Finder = () => {
                         <Typography sx={{ width: '33%', flexShrink: 0 }}>
                           Neumaticos.
                         </Typography>
-                       
                       </AccordionSummary>
                       <AccordionDetails>
+                     
                         <ul>
-                       
-                            <li> 
-                              <strong>RIM2: </strong>{m.wheels[0].front.rim}
-                             
-                            </li>
-                            <li> <strong>Diametro: </strong>{m.wheels[0].front.rim_diameter}</li>
-                            <li> <strong>Neumatico</strong>{m.wheels[0].front.rim.tire} </li>
-                          
-                      
-                      </ul>
+                         
+                          <li> <strong>Neumatico:</strong>{m.wheels[0].front.tire} </li>
+                          <li><strong>RIM: </strong>{m.wheels[0].front.rim}</li>
+                          <li> <strong>Diametro: </strong>{m.wheels[0].front.rim_diameter}</li>
+                         
+                        </ul>
+                    
                       </AccordionDetails>
                     </Accordion>
 
-                    <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel2')}>
+                    <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel2bh-content"
@@ -338,53 +318,22 @@ const Finder = () => {
                             {m.technical.wheel_fasteners.type}
                           </li>
                           <li> <strong>Tamaño hilo:</strong> {m.technical.wheel_fasteners.thread_size} </li>
-                          <li> <strong>Cantidad Pernos:</strong> {m.technical.wheel_fasteners.rear_axis_stud_holes ?  m.technical.wheel_fasteners.rear_axis_stud_holes :"Sin Datos"} </li>
+                          <li> <strong>Cantidad Pernos:</strong> {m.technical.wheel_fasteners.rear_axis_stud_holes ? m.technical.wheel_fasteners.rear_axis_stud_holes : "Sin Datos"} </li>
                         </ul>
                       </AccordionDetails>
                     </Accordion>
 
-
-                    
-
-
-                    <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                      <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel4bh-content"
-                        id="panel4bh-header"
-                      >
-                        <Typography sx={{ width: '33%', flexShrink: 0 }}>Personal data</Typography>
-                      </AccordionSummary>
-                      <AccordionDetails>
-                        <Typography>
-                          Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer sit
-                          amet egestas eros, vitae egestas augue. Duis vel est augue.
-                        </Typography>
-                      </AccordionDetails>
-                    </Accordion>
+                   
                   </Paper>
                 </Card>
               ))
 
             }
-
-
-
           </div>
-
-
-
-
-
-
-
-
-
-
         </Box>
       </Container>
     </>
   )
 }
-
+ 
 export default Finder

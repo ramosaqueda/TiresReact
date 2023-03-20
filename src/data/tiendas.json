@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/tiendas/coquimbo.jpg",
+        "title": "Casa Matriz",
+        "address": "12 DE FEBRERO Nº25,ESQUINA, Domeyko, Coquimbo",
+        "description": "Horas: Abierto desde 9:00, Cierra a las 17:30"
+
+    },
+
+    {
+        "id": 2,
+        "image": "/assets/images/tiendas/1.jpg",
+        "title": "Sucursal Ruta 43",
+        "address": "Ruta 43 Camnio a Ovalle",
+        "description": "Horas: Abierto desde 9:00, Cierra a las 17:30"
+
+    },
+
+    {
+        "id": 3,
+        "image": "/assets/images/tiendas/ovalle.jpg",
+        "title": "Sucursal Ovalle",
+        "address": "Av. David Perry 295, 1840252 Ovalle, Coquimbo",
+        "description": "Horas: Abierto desde 9:00, Cierra a las 17:30"
+
+    }
+]

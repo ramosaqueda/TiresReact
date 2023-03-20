@@ -1,5 +1,5 @@
 import * as React from 'react';
- 
+import Link from '@mui/material/Link';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box'; 
 import Divider from '@mui/material/Divider';
@@ -13,11 +13,17 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+
  
 
 const drawerWidth = 240;
-const navItems = ['Inicio', 'Nosotros', 'Nuestras Tiendas', 'Contacto']; 
-
+ const navigationItems = [
+  { to: 'home', label: 'Inicio' },
+  { to: 'about', label: 'Nosotros' },
+  { to: 'tiendas', label: 'Nuestras Tiendas' },
+  { to: 'contacto', label: 'Contacto' },
+  { to: 'finder', label: 'Busca tu medida' },
+]
 
 
 function Header (props) {
@@ -38,11 +44,13 @@ function Header (props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
+        {navigationItems.map((item) => (
+          <ListItem key={item.label}  disablePadding>  
+           <Link  href={item.to}  >
+              <ListItemButton sx={{ textAlign: 'center' }} component={item.to}>
+                <ListItemText primary={item.label} />
+              </ListItemButton>
+          </Link>
           </ListItem>
         ))}
       </List>
@@ -74,11 +82,17 @@ function Header (props) {
               {import.meta.env.VITE_SITE_NAME}
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
+            {navigationItems.map((item) => (
+
+              <Link  href={item.to}  >
+                <Button variant="contained">
+                  {item.label}
+                </Button>
+              </Link>
             ))}
+        
+        
+            
           </Box>
         </Toolbar>
       </AppBar>
