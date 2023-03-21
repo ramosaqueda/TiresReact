@@ -8,15 +8,16 @@ const TiendasList = ({ items }) => {
      <div>
       <h2>Tiendas</h2>
       <hr />
+ 
+      <Grid container spacing={4} py={3}>
 
-      <Grid >
         {items?.map((item) => (
-          <Grid item xs={12} sm={6} lg={3} key={item.id}>
-            console.log(item)
+          <Grid item xs={12} sm={6} lg={3} key={item.id}> 
             <Tienda {...item} />
           </Grid>
         ))}
       </Grid>
+      
       </div>
     )
 

@@ -5,9 +5,10 @@ import Finder from './components/Finder/Finder'
 import HomePage from './pages/HomePage/HomePage'
 import TiendaContainer from './pages/Tiendas/TiendaContainer';
 import About from './pages/About/About';
+import BottomNav from './pages/BottomNav/BottomNav';
 import './App.css'
  
-
+ 
 function App() { 
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
         <Route path="/tiendas" element={<TiendaContainer />} />
         <Route path="/finder" element={<Finder />} />
       </Routes>
+      <BottomNav/>
     </Router>
     </div>
   )

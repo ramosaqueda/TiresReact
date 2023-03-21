@@ -4,14 +4,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-const Tienda = (id, title , image, address, description) => {
+const Tienda = ({id, title , image, address, description}) => {
     console.log (image)
   return (
     <Card>
       <CardActionArea>
         <CardMedia
           component='img'
-          height='360'
+          height='460'
+         
           image={image}
           alt={id}
         />
@@ -22,15 +23,11 @@ const Tienda = (id, title , image, address, description) => {
         </CardContent>
       </CardActionArea>
       <CardActions sx={{ display: 'flex', justifyContent: 'space-around' }}>
-        <Button size='small' color='error'>
-          Ver más
-        </Button>
+         
         <Typography variant='subtitle1' color='text.secondary' align='right'>
           {address} 
         </Typography>
-        <Typography variant='subtitle2' color='text.secondary' align='right'>
-          {description} 
-        </Typography>
+       
       </CardActions>
     </Card>
   )
